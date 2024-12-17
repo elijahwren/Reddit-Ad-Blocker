@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Reddit Ad Blocker",
+    "description": "Tutorial on building chrome extensions",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "star.png"
+    },
+    "content_scripts": [
+        {
+        "js": ["ad-block.js"],
+        "matches": ["*://*.reddit.com/*", "*://reddit.com/**"]
+        }
+    ],
+    "permissions": ["activeTab", "scripting"]
+}
