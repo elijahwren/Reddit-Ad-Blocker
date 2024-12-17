@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "star.png"
+        "default_icon": "reddit.png"
     },
     "content_scripts": [
         {
